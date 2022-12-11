@@ -94,3 +94,5 @@ CREATE TABLE `detalle_orden_compra` (
 	CONSTRAINT `FK_orden_compra` FOREIGN KEY (`id_orden_compra`) REFERENCES `orden_compra` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE,
 	CONSTRAINT `FK_producto` FOREIGN KEY (`id_producto`) REFERENCES `producto` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+insert into `marca`(nombre_marca, descripcion) values("Adidas", "Marca de zapatos, ropa y accesorios orientados al deporte o para aquellos que quieren verse casuales");

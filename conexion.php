@@ -1,7 +1,7 @@
 <h3>Categorias</h3>
 <?php
     $serverName = "localhost,1433"; //serverName\instanceName
-    $connectionInfo = array( "Database"=>"store", "UID"=>"sa", "PWD"=>"sa");
+    $connectionInfo = array( "Database"=>"inventario", "UID"=>"root", "PWD"=>"");
     $conn = sqlsrv_connect( $serverName, $connectionInfo);
         if( $conn ) {
             $query = sqlsrv_query($conn, "select category, route, date from categories");

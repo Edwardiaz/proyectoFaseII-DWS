@@ -21,13 +21,13 @@
   <body class="hold-transition login-page">
     <div class="login-box">
       <div class="login-logo">
-        <a href="../../index2.html"><b>Inventario Inc</b></a>
+        <a><b>Inventario Inc</b></a>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <p class="login-box-msg">Ingrese sus datos de Acceso</p>
-        <form action="../../index2.html" method="post">
+        <form action="inicio.php" method="post">
           <div class="form-group has-feedback">
-            <input type="email" class="form-control" placeholder="Email">
+            <input type="Email" class="form-control" placeholder="Email">
             <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
           </div>
           <div class="form-group has-feedback">
@@ -49,7 +49,7 @@
         </form>
 
         
-        <a href="#">Olvidé mi password</a><br>
+        <a></a><br>
         
 
       </div><!-- /.login-box-body -->
